@@ -6,6 +6,10 @@
 
 > 当前版本定位为初代可用版，适合轻量办公自动化、重复点击、简单流程回放等场景。
 
+## 界面预览
+
+![AutoRecorder Lite 主界面](mainForm.png)
+
 ## 功能特性
 
 - 录制鼠标操作：左键、右键、中键、侧键、滚轮。
@@ -39,7 +43,7 @@
 ### 运行脚本
 
 1. 安装 AutoHotkey v2。
-2. 双击运行 `AutoRecorder_Lite_v1_1.ahk`。
+2. 双击运行 `AutoRecorder_Lite_v0_1.ahk`。
 3. 在主界面中设置录制名称、录制选项和回放选项。
 
 ### 录制宏
@@ -140,11 +144,10 @@
 ### 图形界面方式
 
 1. 安装 AutoHotkey v2。
-2. 右键 `AutoRecorder_Lite_v1_1.ahk`。
+2. 右键 `AutoRecorder_Lite_v0_1.ahk`。
 3. 选择 `Compile Script`。
 4. 选择输出文件名，例如 `AutoRecorder_Lite.exe`。
 5. 图标可以选择本仓库中的 `AutoRecorder_Lite.ico`。
-
 
 ## 免责声明
 
