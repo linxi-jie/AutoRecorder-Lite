@@ -145,55 +145,6 @@
 4. 选择输出文件名，例如 `AutoRecorder_Lite.exe`。
 5. 图标可以选择本仓库中的 `AutoRecorder_Lite.ico`。
 
-### 命令行方式
-
-根据你的 AutoHotkey 安装路径调整命令：
-
-```powershell
-"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in "AutoRecorder_Lite_v1_1.ahk" /out "AutoRecorder_Lite.exe" /icon "AutoRecorder_Lite.ico"
-```
-
-编译后的 EXE 可以直接分享给未安装 AutoHotkey 的用户。
-
-## 建议上传到 GitHub 的文件
-
-如果你准备直接在 GitHub 网页上创建仓库并上传文件，建议上传：
-
-```text
-AutoRecorder_Lite_v1_1.ahk
-README.md
-AutoRecorder_Lite.ico
-AutoRecorder_Lite_icon_256.png
-```
-
-可选上传：
-
-```text
-LICENSE
-examples/
-```
-
-不建议上传：
-
-```text
-macros/
-AutoHotkey.chm
-_chm_extract/
-_chm_extract_abs/
-```
-
-说明：
-
-- `macros/` 里通常是个人录制内容，可能包含隐私路径、窗口标题或工作流程，不建议直接上传。
-- `AutoHotkey.chm` 是官方帮助文档，不属于本项目源码。
-- `_chm_extract/` 和 `_chm_extract_abs/` 是临时解包目录，不需要上传。
-- 如果要提供示例宏，建议新建 `examples/`，放入脱敏后的示例 JSON。
-
-## 开源协议建议
-
-如果希望别人可以自由使用、修改和二次分发，推荐使用 `MIT License`。
-
-在 GitHub 创建仓库时可以直接选择 MIT，也可以后续添加 `LICENSE` 文件。
 
 ## 免责声明
 
